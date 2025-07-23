@@ -5,7 +5,7 @@ input_path = os.path.join("/data", "Medicaldataset.csv")
 output_path = os.path.join("/data", "CleanedMedicalData.csv")
 
 def extract_data(path):
-    df = pd.read_csv(path)
+    df = pd.rexad_csv(path)
     print("Data Extraction completed.")
     return df
 
