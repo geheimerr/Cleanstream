@@ -1,6 +1,6 @@
 # Cleanstream: A Lightweight Python ETL Pipeline in Docker
 
-Cleanstream is a minimal, containerized Python ETL pipeline that demonstrates how to extract, transform and load (ETL) data using Pandas. It is ideal for learning or bootstrapping custom data pipelines in a reproducible environment.
+Cleanstream is a minimal, containerized Python ETL pipeline that demonstrates how to extract, transform and load (ETL) data using Pandas. It is ideal for learning or bootstrapping custom data pipelines in a reproducible environment. This was built as a basic project by me to understand how data pipelines work. 
 
 ## Features
 
