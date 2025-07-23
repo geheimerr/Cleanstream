@@ -19,8 +19,8 @@ Cleanstream is a minimal, containerized Python ETL pipeline that demonstrates ho
 1. Clone the repository:
 
    ```
-   git clone https://github.com/geheimerr/CleanStream.git
-   cd CleanStream
+   git clone https://github.com/geheimerr/Cleanstream.git
+   cd Cleanstream
    ```
 3. Build and run the container:
 
@@ -66,11 +66,6 @@ A sample transformation in `pipeline.py` might look like this:
    df["BMI"] = df["Weight"] / ((df["Height"] / 100) ** 2)
    df.to_csv("output.csv", index=False)
 ```
-
-## Notes
-
-- Do not commit large or sensitive datasets to the repository.
-- You can extend the pipeline to support other data formats, load targets (e.g. databases), or schedule it using cron or Airflow.
 
 ## License
 
